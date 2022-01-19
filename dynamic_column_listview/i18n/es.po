@@ -1,0 +1,139 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dynamic_column_listview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-20 15:07+0000\n"
+"PO-Revision-Date: 2016-06-20 15:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_create_uid
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_create_date
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_display_name
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_dynamic_column_listview_id
+msgid "Dynamic column listview id"
+msgstr "Dynamic column listview id"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_field_id
+msgid "Field id"
+msgstr "Field id"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_id
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel___last_update
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_write_uid
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_write_date
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_fields_rel_sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_view_id
+msgid "View"
+msgstr "Ver"
+
+#. module: dynamic_column_listview
+#: model:ir.model.fields,field_description:dynamic_column_listview.field_dynamic_column_listview_visible_field_ids
+msgid "Visible fields"
+msgstr "Visible fields"
+
+#. module: dynamic_column_listview
+#: model:ir.model,name:dynamic_column_listview.model_dynamic_column_fields_rel
+msgid "dynamic.column.fields.rel"
+msgstr "dynamic.column.fields.rel"
+
+#. module: dynamic_column_listview
+#: model:ir.model,name:dynamic_column_listview.model_dynamic_column_listview
+msgid "dynamic.column.listview"
+msgstr "dynamic.column.listview"
+
+#. module: dynamic_column_listview
+#: model:ir.model,name:dynamic_column_listview.model_ir_ui_view
+msgid "ir.ui.view"
+msgstr "ir.ui.view"
+
+#. module: dynamic_column_listview
+#. openerp-web
+#: code:addons/web/dynamic_column_listview/static/src/xml/listview_button_view.xml:6
+#, python-format
+msgid "Columns"
+msgstr "Columnas"
+
+#. module: dynaCmic_column_listview
+#. openerp-web
+#: code:addons/web/dynamic_column_listview/static/src/xml/listview_button_view.xml:9
+#, python-format
+msgid "Select All"
+msgstr "Seleccionar todas"
+
+#. module: dynamic_column_listview
+#. openerp-web
+#: code:addons/web/dynamic_column_listview/static/src/xml/listview_button_view.xml:10
+#, python-format
+msgid "Unselect All"
+msgstr "Deseleccionar todas"
+
+#. module: dynamic_column_listview
+#. openerp-web
+#: code:addons/web/dynamic_column_listview/static/src/xml/listview_button_view.xml:17
+#, python-format
+msgid "Save columns order"
+msgstr "Guardar orden de columnas"
+
+#. module: dynamic_column_listview
+#. openerp-web
+#: code:addons/web/dynamic_column_listview/static/src/xml/listview_button_view.xml:21
+#, python-format
+msgid "Save for all users"
+msgstr "Guardar para todos los usuarios"
+

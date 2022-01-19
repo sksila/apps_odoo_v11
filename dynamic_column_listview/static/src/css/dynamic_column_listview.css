@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.column_handle {
+    cursor: move;
+}
+
+.dragtable-sortable li {
+    background: #EFEFEF;
+}

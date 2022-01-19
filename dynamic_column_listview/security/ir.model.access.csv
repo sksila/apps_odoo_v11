@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dynamic_column_listview,dynamic.column.listview,dynamic_column_listview.model_dynamic_column_listview,,1,1,1,1
+access_dynamic_column_fields_rel,dynamic.column.fields.rel,dynamic_column_listview.model_dynamic_column_fields_rel,,1,1,1,1

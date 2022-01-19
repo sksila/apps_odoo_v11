@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates t-name="selectcolumns">
+
+    <div t-name="SearchView.DynamicColumnMenu" id="dynamic_column_dropdown" class="o_dropdown dynamic_column_dropdown">
+       <a id="select_columns" class="dropdown-toggle" data-toggle="dropdown">
+           <span class="fa fa-list-ul"/> Columns <span class="caret"/>
+       </a>
+        <div id="dynamic_dropdown_menu" class="dropdown-menu" style="padding: 5px 0px 5px 5px">
+            <button id="select_all_columns" type="button" class="btn btn-primary btn-sm">Select All</button>
+            <button id="unselect_all_columns" type="button" style="margin-right:5px;" class="btn btn-primary btn-sm">Unselect All</button>
+           <ul id="showcb" role="menu" style="list-style-type: none;padding: 0px 20px 0px 0px;max-height:300px; overflow-y:auto;overflow-x:hidden;">
+               <!-- List for including columns to select/unselect for displaying-->
+           </ul>
+            <span id="showcb_divider" class="divider" style="padding-top:5px"/>
+            <div class="dynamic_columns_saving_options">
+                <div style="padding-bottom:5px;">
+                    <div class="o_checkbox"><input id="save_column_order" type="checkbox"/><span/></div> Save columns order
+                </div>
+
+                <div id="apply_for_all" class="o_save_name" style="padding-bottom:5px;">
+                   <span><div class="o_checkbox"><input id="save_for_all_users" type="checkbox"/><span/></div> Save for all users </span><span class="fa fa-users"/>
+               </div>
+                <button id="save_dynamic_columns" type="button" class="btn btn-primary btn-sm">Save</button>
+            </div>
+        </div>
+    </div>
+
+</templates>

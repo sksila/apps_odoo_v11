@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="listview" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/dynamic_column_listview/static/lib/dragtable/dragtable.css"/>
+                <script type="text/javascript" src="/dynamic_column_listview/static/lib/dragtable/jquery.dragtable.js"></script>
+                <link rel="stylesheet" href="/dynamic_column_listview/static/src/css/dynamic_column_listview.css"/>
+                <script type="text/javascript" src="/dynamic_column_listview/static/src/js/search_menus.js"></script>
+                <script type="text/javascript" src="/dynamic_column_listview/static/src/js/search_view.js"></script>
+                <script type="text/javascript" src="/dynamic_column_listview/static/src/js/dynamic_list.js"></script>
+                <script type="text/javascript" src="/dynamic_column_listview/static/src/js/view_manager.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
